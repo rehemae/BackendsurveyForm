@@ -5,4 +5,4 @@ from survey.models import Survey
 class SurveySerializer(serializers.ModelSerializer):
     class Meta:
         model = Survey
-        fields = ('name', 'age', 'feedback','satisfied','phone_number',"gender")
+        fields = ('name', 'age', 'feedback','satisfied','phone_number',"gender",)
